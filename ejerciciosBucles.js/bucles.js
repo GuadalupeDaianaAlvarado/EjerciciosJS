@@ -1,47 +1,46 @@
-
-
+//Number(prompt("Ingrese un numero"));
+//ejercicio1
 /* 
-let numeroIngresado = prompt("Ingrese un numero");
+
+let numeroIngresado =Number(prompt("Ingrese un numero"));
 
 for (let i = 1; i <= 10; i++) {
   let resultado = numeroIngresado * i;
   console.log(resultado);
   console.log(`${numeroIngresado} x ${i} = ${resultado}`);
 }
- */
+  */
 
 //------------------------------------------------------------------
-
-
-let operacion = Number(0) ;
-let numeros = [ Number() ]
+//ejercicio2
+/* let numeros = []
 
 while(numeros !== 0){
-  numeros = prompt("Ingresa un número (para terminar ingrese 0):");
+  numeros = Number(prompt( ("Ingresa un número (para terminar ingrese 0):"))); 
+  
 }
 
-alert(`La lista es: ${[numeros]}`);
-/* 
-.Number.parseInt
-parseInt("F", 16) 
- */
+alert(`La lista es: ${numeros}`); */
+
+//.Number.parseInt
+//parseInt("F", 16) 
+
 
 //------------------------------------------------------------------
+//ejercicio5
 
-/* let numeroIngresado = (prompt("Ingrese un número"));
+/*  let numeroIngresado = Number(prompt("Ingrese un numero"));
 
 for (let i = 1; i <= numeroIngresado; i++) {
   if (numeroIngresado % i === 0) {
     console.log(i);
   }
-}
- */
-
+} */
+ 
 //------------------------------------------------------------------
-
-
-
-/* const miFamilia = [ 
+//ejercicio6
+/* 
+    const miFamilia = [ 
     pareja= "miguel",
     hermana= "cele",
     cuñado= "maxi",
@@ -56,19 +55,22 @@ for (let i = 1; i <= numeroIngresado; i++) {
 
 for(let i=0; i<miFamilia.length; i++) {
     console.log(miFamilia[i]);
-  } */
+  } 
+ */
+
 
   //------------------------------------------------------------------
+//ejercicio7
 
-/* const miArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+/* 
+const miArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 for(let i = 0; i < miArray.length; i++) {
   console.log(miArray[i] * 2);
 }
-
  */
   //------------------------------------------------------------------
-
+//ejercicio8
 
 /*   const miFamilia = [
     { nombre: "Miguel", edad: 26, altura: 1.75, fechaNacimiento: "01/01/1996" },
@@ -84,9 +86,10 @@ for(let i = 0; i < miArray.length; i++) {
    */
 
     //------------------------------------------------------------------
+//ejercicio9
 
 /* 
-    const numeros = [20, 51, 5, 85, 36, 98, 75, 63, 99, 28];
+const numeros = [20, 51, 5, 85, 36, 98, 75, 63, 99, 28];
 
 for(let i = 0; i < numeros.length; i++) {
   if(numeros[i] % 2 !== 0) {
@@ -95,24 +98,3 @@ for(let i = 0; i < numeros.length; i++) {
 }
  */
     //------------------------------------------------------------------
-
-/* let sumaPares = 0;
-let sumaImpares = 0;
-
-while () {
-  const numero = parseInt(prompt("Ingrese un número (o cero para finalizar):"));
-  
-  if (numero === 0) {
-    break;
-  }
-  
-  if (numero % 2 === 0) {
-    sumaPares += numero;
-  } else {
-    sumaImpares += numero;
-  }
-}
-
-console.log(`La suma de los números pares es: ${sumaPares}`);
-console.log(`La suma de los números impares es: ${sumaImpares}`);
- */

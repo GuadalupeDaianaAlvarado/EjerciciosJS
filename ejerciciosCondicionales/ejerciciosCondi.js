@@ -7,7 +7,9 @@ if (numeroUno > numeroDos) {
   console.log(`El numero ${numeroUno} es mayor que el numero ${numeroDos}`);
 }else {
   console.log(`El numero ${numeroUno} es menor que el numero ${numeroDos}`);
-} */
+} 
+
+ */
 
 //-------------------------------------------------------------------------------.
 
@@ -22,8 +24,8 @@ if (numeroUno != numeroDos) {
 }
  */
 //----------------------------------------------------------------------------------.
-
-/* let numeroUno = prompt("Ingrese el primer numero: "); 
+/* 
+let numeroUno = prompt("Ingrese el primer numero: "); 
 let numeroDos = prompt("Ingrese el segundo numero: "); 
 
 
@@ -34,20 +36,29 @@ if (numeroUno > numeroDos) {
 }else{
   console.log(`El numero ${numeroUno} y el numero ${numeroDos} son iguales`);
 }
- */
-//----------------------------------------------------------------------------------..
+  */
 
-/* let numeroUno = prompt("Ingrese el primer numero: "); 
+//----------------------------------------------------------------------------------..
+/* 
+let numeroUno = prompt("Ingrese el primer numero: "); 
 let numeroDos = prompt("Ingrese el segundo numero: ");
 let numeroTres = prompt("Ingrese el tercer numero: "); 
 
-min = console.log(Math.min(numeroTres, numeroDos, numeroTres) )
- */
+function masChico(numnumeroUno1, numeroDos, numeroTres) {
+  if (numeroUno < numeroDos && numeroUno < numeroTres) {
+      console.log(`${numeroUno} es el mas chico`)
+  }if (numeroDos < numeroUno && numeroDos < numeroTres) {
+      console.log(`${numeroDos} es el mas chico`)
+  }if (numeroTres < numeroUno && numeroTres < numeroDos) {
+      console.log(`${numeroTres} es el mas chico`)
+  }
+}
+masChico(numeroUno, numeroDos, numeroTres) */
 
 //----------------------------------------------------------------------------------.
 
-/* 
-let personaUno={
+
+/* let personaUno={
   nombre:"Juan",
   edad:35,
   altura: 1.6,
@@ -70,7 +81,6 @@ if (personaUno.edad > personaDos.edad ){
 }
  */
 
-
 //----------------------------------------------------------------------------------.
 
 /* let nombre = prompt("Ingrese su nombre "); 
@@ -81,7 +91,7 @@ let vision = prompt("Ingrese su vsion del 1 al 10");
 if(edad>=18 && altura>=150 && vision>=8 ){ //Usar && para que salga true todos deven ser true
   console.log(`${nombre} SI esta abilitado para conducir.`)
 }else{
-  console.log(`${nombre} No esta abilitado para conducir.`)
+  console.log(`${nombre} NO esta abilitado para conducir.`)
 }
  */
 
@@ -113,7 +123,7 @@ switch (nombre) {
     }
     break;
 }
- */
+  */
 
 //----------------------------------------------------------------------------------.
 
@@ -121,29 +131,53 @@ switch (nombre) {
 let intentos = 3;
 let numeroAdivinar = 5;
 
-adivinanza1 = prompt("Adivina el número:")
+
+adivinanza1 =  Number(prompt("Adivina el número:"));
 
 if (adivinanza1 === numeroAdivinar) {
   alert("Ganaste, has adivinado el numero incognita");
 }else {  
   prompt("Te quedan 2 intentos")
 }
-  adivinanza2 = prompt("Adivina el número:")
+
+//.......................
+
+  adivinanza2 =  Number(prompt("Adivina el número:"));
 
 if (adivinanza2 === numeroAdivinar) {
   alert("Ganaste, has adivinado el numero incognita");
 } else{
   prompt("Te quedan 1 intento")}
 
-  adivinanza3 = prompt("Adivina el número:")
+  //.......................
+
+  adivinanza3 = Number(prompt("Adivina el número:"));
 
   if (adivinanza3 === numeroAdivinar) {
     alert("Ganaste, has adivinado el numero incognita");
   } else{
-    alert("Gracias por participar")} */
+    alert("Gracias por participar")} 
+ */
 
 //----------------------------------------------------------------------------------.
 
+/* let edadd = Number(prompt("Ingrese su edad:"));
+
+if (edadd >= 0 && edadd <= 12) {
+    console.log("Eres un infante")
+}else if(edadd >=13 && edadd <= 18){
+    console.log("Eres un adolescente")
+}else if (edadd >= 19 && edadd <= 45) {
+    console.log("Eres un joven mayor")
+}else if (edadd >= 46 && edadd <= 100) {
+    console.log("Eres un adulto mayor")
+}else if (edadd > 100){
+    console.log("De verdad tienes esa edad?")
+}
+
+ */
+
+//----------------------------------------------------------------------------------.
 
 /* let ingreseColor= prompt("Ingrese un color")
 
